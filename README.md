@@ -8,23 +8,23 @@ The central plugin for Vision Network
 - Indent properly (use **4** spaces, **not tabs**)
 - Add a new lines between methods, constructors, and global variable declarations. Example:
   ```java
-      public class Example<K, V> {
-          private final K key;
-          private final V value;
+public class Example<K, V> {
+    private final K key;
+    private final V value;
 
-          public Entry(k k, V v) {
-              key = k;
-              value = v;
-          }
+    public Entry(k k, V v) {
+        key = k;
+        value = v;
+    }
 
-          public K getKey() {
-              return key;
-          }
+    public K getKey() {
+        return key;
+    }
 
-          public V getValue() {
-              return value;
-          }
-      }
+    public V getValue() {
+        return value;
+    }
+}
 
 ### Folder Organization
 
