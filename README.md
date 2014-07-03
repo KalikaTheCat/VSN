@@ -1,4 +1,4 @@
-# Vision
+# VSN
 
 The central plugin for Vision Network
 
